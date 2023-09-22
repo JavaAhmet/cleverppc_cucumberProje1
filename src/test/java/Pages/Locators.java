@@ -1,17 +1,12 @@
 package Pages;
 
 import Utilities.GWD;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
-
-public class DialogContent extends Parent {
-    public DialogContent() {
+public class Locators extends Parent {
+    public Locators() {
         PageFactory.initElements(GWD.getDriver(), this);
         // Sevgili PageFactory sen bu sayfanın
         // sahibisin,senden ricam aşağıdaki locatorları

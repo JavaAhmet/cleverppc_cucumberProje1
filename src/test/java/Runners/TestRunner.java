@@ -7,10 +7,10 @@ import io.cucumber.testng.CucumberOptions;
         tags = "@SmokeTest",
         features = {"src/test/java/FeatureFiles"},
         glue={"StepDefinitions"},
-        dryRun = false, // true olduğunda testi çalıştırmaz sadece feature lara
+        dryRun = false// true olduğunda testi çalıştırmaz sadece feature lara
         // ait steplerin varlığını kontrol eder.
         // false olduğunda ise testi çalıştırır
-        plugin= {"html:target/site/cucumber-pretty.html"}  // basit rapor
+      //  plugin= {"html:target/site/cucumber-pretty.html"}  // basit rapor -> cuma akşam yoruma alındı
 )
-public class _06_TestRunnerSmokeWithPlugin extends AbstractTestNGCucumberTests {
+public class TestRunner extends AbstractTestNGCucumberTests {
 }
