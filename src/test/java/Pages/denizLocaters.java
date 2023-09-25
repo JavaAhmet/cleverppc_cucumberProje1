@@ -51,6 +51,19 @@ public class denizLocaters extends Parent{
     @FindBy(xpath="//button[@id='SubmitLogin']")
     public WebElement userSignInBtn;
 
+    @FindBy(xpath="//div[@class='alert alert-danger']//li")
+    public WebElement passwordRequiredMsg;
+
+    @FindBy(xpath="//li[text()='An email address required.']")
+    public WebElement emailRequiredMsg;
+
+    @FindBy(xpath="//div[@class='alert alert-danger']//li")
+    public WebElement failMsg;
+
+    @FindBy(xpath="//p[@class='info-account']")
+    public WebElement welcomeMsg;
+
+
 
 
     public WebElement getWebElement(String strElement){
@@ -67,6 +80,10 @@ public class denizLocaters extends Parent{
             case "userEmail": return this.userEmail;
             case "userPassword": return this.userPassword;
             case "userSignInBtn": return this.userSignInBtn;
+            case "passwordRequiredMsg": return this.passwordRequiredMsg;
+            case "emailRequiredMsg": return this.emailRequiredMsg;
+            case "failMsg": return this.failMsg;
+            case "welcomeMsg": return this.welcomeMsg;
         }
 
         return null;
