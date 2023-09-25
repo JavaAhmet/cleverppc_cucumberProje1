@@ -66,6 +66,7 @@ public class denizLocaters extends Parent{
 
 
 
+
     public WebElement getWebElement(String strElement){
         switch (strElement){
             case "signIn": return this.signIn;

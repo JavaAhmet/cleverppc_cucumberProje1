@@ -1,16 +1,13 @@
 
 Feature: DataTable Register Functionality
 
-
     Background:
-    Given Navigate to Clever
+    Given Navigate to Cleverppc
     When Click to sign in
-
 
   Scenario: Register with new email
     And Sendkeys email
       | createAccountEmail |
-
 
     And Click to create an account button
     | createAccountBtn |
