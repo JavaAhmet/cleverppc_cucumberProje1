@@ -13,6 +13,7 @@ public class _05_ControlList {
     public void userClicksOnTheDressesCategory() {
 
         yl.myClick(yl.dressesBtn);
+
     }
 
     @Then("Validating the number at the top of the list")

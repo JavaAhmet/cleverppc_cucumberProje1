@@ -13,6 +13,7 @@ public class YasinLocators extends Parent{
         PageFactory.initElements(GWD.getDriver(), this);
     }
 
+
     @FindBy(xpath = "(//a[text()='Dresses'])[2]")
     public WebElement dressesBtn;
 
