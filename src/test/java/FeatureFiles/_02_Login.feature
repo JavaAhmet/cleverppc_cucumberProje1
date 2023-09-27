@@ -4,7 +4,6 @@ Feature: DataTable Login Functionality
     Given Navigate to Cleverppc
     When Click to sign in
 
-
   Scenario Outline: Login with email and password
 
     When Send keys email as "<useremail>" password as "<userpassword>"

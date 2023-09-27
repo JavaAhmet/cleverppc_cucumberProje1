@@ -13,6 +13,7 @@ public class denizLocaters extends Parent{
         PageFactory.initElements(GWD.getDriver(), this);
     }
 
+
     @FindBy(xpath="//a[@class='login']")
     public WebElement signIn;
 

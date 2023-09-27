@@ -13,7 +13,6 @@ public class _01_RegisterSteps {
     denizLocaters dl = new denizLocaters();
     String randomEmail;
 
-
     @Given("Navigate to Cleverppc")
     public void navigateToCleverppc() {
         GWD.getDriver().get("https://cleverppc.com/prestashop4/");
