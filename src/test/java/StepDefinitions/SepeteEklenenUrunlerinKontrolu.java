@@ -65,6 +65,7 @@ public class SepeteEklenenUrunlerinKontrolu {
         iLoc.added.add(iLoc.AllProuducts.get(random3).getAttribute("data-id-product"));
 
         iLoc.myClick(iLoc.card);
+
     }
 
     @Then("Verify products and product amount")
