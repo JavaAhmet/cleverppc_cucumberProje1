@@ -11,12 +11,12 @@ public class CartControlStep {
 
 
 
-/*
+
     @Given("Navigate to Cleverppc")
     public void navigateToCleverppc() {
         GWD.getDriver().get("https://cleverppc.com/prestashop4/");
     }
-*/
+
 
     @When("Click to sign in and enter valid email and password and click sign in")
     public void clickToSignInAndEnterValidEmailAndPasswordAndClickSignIn() {

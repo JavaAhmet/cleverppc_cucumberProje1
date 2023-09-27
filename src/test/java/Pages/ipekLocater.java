@@ -21,6 +21,7 @@ public class ipekLocater extends Parent {
     @FindBy(xpath = "/html/body/div/div[1]/header/div[2]/div/div/nav/div[1]/a")
     public WebElement signIn;
 
+
     @FindBy(xpath = "//*[@id=\"email\"]")
     public WebElement emailBox;
     @FindBy(xpath = "//*[@id=\"passwd\"]")
