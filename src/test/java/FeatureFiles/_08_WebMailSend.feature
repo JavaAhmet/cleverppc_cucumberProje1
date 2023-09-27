@@ -2,7 +2,7 @@ Feature: Emailsendcan functionality
   @Regression
   Scenario: Contact us part sended can valid Email
 
-  Given Navigate to Cleverppc
+
     When Click to element contact us
     And Select to element SubjectHeading
     And User sending the keys in email
