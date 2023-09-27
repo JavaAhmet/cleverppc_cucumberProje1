@@ -1,8 +1,28 @@
 
-Feature: Register functionality
+Feature: DataTable Register Functionality
 
-  Scenario: Register with valid username and password
-
+    Background:
     Given Navigate to Cleverppc
-    When Sign in and enter email and click create an account click register button
-    Then User should register successfully
+    When Click to sign in
+
+
+  Scenario: Register with new email
+    And Sendkeys email
+      | createAccountEmail |
+
+    And Click to create an account button
+    | createAccountBtn |
+
+    And Send keys in denizLocators
+    | firstName | Ali |
+    | lastName  | Yilmaz |
+    | password  | 987654 |
+
+    And Sendkeys Registeremail
+      | email     |
+
+    And Click to register button
+    | registerBtn |
+
+    Then Success message should be displayed
+
