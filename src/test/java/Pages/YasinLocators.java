@@ -23,6 +23,7 @@ public class YasinLocators extends Parent{
 
 
 
+
     @FindBy(xpath = "//span[@class='heading-counter']")
     public WebElement ustList;
 
