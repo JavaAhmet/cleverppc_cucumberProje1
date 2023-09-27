@@ -33,7 +33,6 @@ public class ipekLocater extends Parent {
     @FindBy(xpath = "(//a[@title='Add to cart'])[1]")
     public WebElement addtoCart;
 
-
     @FindBy(xpath = "//*[@id=\"layer_cart\"]/div[1]/div[2]/div[4]/span/span")
     public WebElement continueShopping;
 
