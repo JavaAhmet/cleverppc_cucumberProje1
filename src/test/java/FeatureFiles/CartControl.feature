@@ -1,7 +1,7 @@
 Feature: Cart Control functionality
 
   Scenario: Cart Control
-    Given Navigate to Cleverppc
+   # Given Navigate to Cleverppc
     When Click to sign in and enter valid email and password and click sign in
     Then User should login successfully
 
