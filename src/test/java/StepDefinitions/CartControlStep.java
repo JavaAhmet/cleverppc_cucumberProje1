@@ -25,6 +25,7 @@ public class CartControlStep {
         iLoc.myClick(iLoc.signInButton);
     }
 
+
     @Then("User should login successfully")
     public void userShouldLoginSuccessfully() {
         iLoc.verifyContainsText(iLoc.signOut, "out");
