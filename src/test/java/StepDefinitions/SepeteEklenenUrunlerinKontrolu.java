@@ -16,6 +16,7 @@ public class SepeteEklenenUrunlerinKontrolu {
 
     ipekLocater iLoc = new ipekLocater();
 
+
     @Given("Navigate to Cleverppc")
     public void navigateToCleverppc() {
         GWD.getDriver().get("https://cleverppc.com/prestashop4/");
