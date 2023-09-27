@@ -66,6 +66,7 @@ public class SepeteEklenenUrunlerinKontrolu {
 
         iLoc.myClick(iLoc.card);
 
+
     }
 
     @Then("Verify products and product amount")
