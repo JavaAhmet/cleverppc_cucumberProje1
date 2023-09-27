@@ -20,10 +20,11 @@ public class _03_bugraYeniBirAdresEkleme {
     @When("Click the sitemap button. Then click on the addresses button. Add a new address to the page that opens.")
     public void clickTheSitemapButtonThenClickOnTheAddressesButtonAddANewAddressToThePageThatOpens() throws InterruptedException {
 
-        b.myClick(b.signIn);
-        b.mySendKeys(b.eMail,"deneme123@gmail.com");
-        b.mySendKeys(b.password,"deneme123");
-        b.myClick(b.loginButonu);
+      // b.myClick(b.signIn);                          -
+      // b.mySendKeys(b.eMail,"deneme123@gmail.com");    -
+      // b.mySendKeys(b.password,"deneme123");             ->  Login
+      // b.myClick(b.loginButonu);                       -
+        //                                             -
         b.myClick(b.siteMap);
         b.myClick(b.adresses);
         b.myClick(b.adresEkleButonu);

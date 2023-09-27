@@ -12,17 +12,17 @@ public class BugrahanLocators extends Parent{
             PageFactory.initElements(GWD.getDriver(), this);
         }
     }
-    @FindBy(css = "[class='login']")
-    public WebElement signIn;
+  // @FindBy(css = "[class='login']")
+  // public WebElement signIn;
 
-    @FindBy(css = "[id='email']")
-    public WebElement eMail;
+  // @FindBy(css = "[id='email']")
+  // public WebElement eMail;
 
-    @FindBy(css = "[id='passwd']")
-    public WebElement password;
+  // @FindBy(css = "[id='passwd']")
+  // public WebElement password;
 
-    @FindBy(css = "[id='SubmitLogin']")
-    public WebElement loginButonu;
+  // @FindBy(css = "[id='SubmitLogin']")
+  // public WebElement loginButonu;
 
     @FindBy(css = "[title='Sitemap']")
     public WebElement siteMap;
