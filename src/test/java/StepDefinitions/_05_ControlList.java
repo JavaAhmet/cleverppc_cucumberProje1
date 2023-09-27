@@ -22,6 +22,7 @@ public class _05_ControlList {
         Assert.assertTrue(yl.ustList.getText().contains("5"));
     }
 
+
     @And("Validating the number at the buttom of the list")
     public void validatingTheNumberAtTheButtomOfTheList() {
         Assert.assertTrue(yl.altList.getText().contains("5"));

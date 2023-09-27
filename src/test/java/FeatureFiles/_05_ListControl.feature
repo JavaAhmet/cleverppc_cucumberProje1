@@ -2,7 +2,7 @@ Feature: List Control
 
   Scenario: Control of the number of products listed
 
-    Given Navigate to Cleverppc
+#    Given Navigate to Cleverppc
     When User Clicks on the dresses category
     Then Validating the number at the top of the list
     And Validating the number at the buttom of the list
