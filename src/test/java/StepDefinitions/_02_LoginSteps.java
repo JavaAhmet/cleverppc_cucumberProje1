@@ -1,13 +1,7 @@
 package StepDefinitions;
 
-import Pages.denizLocaters;
-import Utilities.GWD;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.WebElement;
-import io.cucumber.datatable.DataTable;
-
-import java.util.List;
 
 public class _02_LoginSteps {
     denizLocaters dl = new denizLocaters();

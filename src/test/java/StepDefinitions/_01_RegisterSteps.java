@@ -1,6 +1,5 @@
 package StepDefinitions;
 
-import Pages.denizLocaters;
 import Utilities.GWD;
 import io.cucumber.java.en.*;
 import org.apache.commons.lang3.RandomStringUtils;
