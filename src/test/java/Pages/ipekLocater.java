@@ -66,6 +66,7 @@ public class ipekLocater extends Parent {
    public List<String> added= new ArrayList<>();
     public void myClickScript(WebElement element) {
 
+
         JavascriptExecutor js= (JavascriptExecutor) GWD.getDriver();
         scrollToElement(element);
         //wait.until(ExpectedConditions.elementToBeClickable(element));

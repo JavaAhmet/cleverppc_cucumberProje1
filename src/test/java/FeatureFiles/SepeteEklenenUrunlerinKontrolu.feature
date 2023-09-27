@@ -9,3 +9,4 @@ Feature: Sepete Eklenen Ürünlerin Kontrolü functionality
     And Click to Add to card and continue shopping
     Then Verify products and product amount
 
+
