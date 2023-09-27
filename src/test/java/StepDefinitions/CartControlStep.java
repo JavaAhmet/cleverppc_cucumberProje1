@@ -3,24 +3,20 @@ package StepDefinitions;
 import Utilities.GWD;
 import Pages.ipekLocater;
 import io.cucumber.java.en.*;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-
-import javax.swing.*;
-import java.util.ArrayList;
-import java.util.List;
 
 
-public class SepeteEklenenUrunlerinKontrolu {
+public class CartControlStep {
 
     ipekLocater iLoc = new ipekLocater();
 
 
+
+/*
     @Given("Navigate to Cleverppc")
     public void navigateToCleverppc() {
         GWD.getDriver().get("https://cleverppc.com/prestashop4/");
     }
+*/
 
     @When("Click to sign in and enter valid email and password and click sign in")
     public void clickToSignInAndEnterValidEmailAndPasswordAndClickSignIn() {
@@ -61,7 +57,7 @@ public class SepeteEklenenUrunlerinKontrolu {
             random3=iLoc.random();
         }
         iLoc.myClickScript(iLoc.AllProuducts.get(random3));
-        iLoc.myClickScript(iLoc.continueShopping);
+        iLoc.myClick(iLoc.continueShopping);
         iLoc.added.add(iLoc.AllProuducts.get(random3).getAttribute("data-id-product"));
 
         iLoc.myClick(iLoc.card);

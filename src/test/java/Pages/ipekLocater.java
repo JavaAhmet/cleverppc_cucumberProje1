@@ -12,7 +12,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class ipekLocater extends Parent {
+
     public ipekLocater() {
         PageFactory.initElements(GWD.getDriver(), this);
     }
@@ -57,7 +59,6 @@ public class ipekLocater extends Parent {
 
     @FindBy(xpath = "//*[@id=\"product_list\"]/li[3]/div/div[2]/h5/a")
     public WebElement hover3;
-
 
 
 
